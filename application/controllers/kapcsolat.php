@@ -1,13 +1,19 @@
 <?php
 
-class Main extends Controller {
+class Kapcsolat extends Controller {
 	
-	function index()
-	{
-		$template = $this->loadView('main_view');
-		$template->render();
-	}
-    
-}
+    function index()
+    {
+        $title = '';
+        $meta_title = '';
+        $meta_description = '';
 
-?>
+        $template = $this->loadView('main_view');
+        
+        $template->set('title', $title);
+        $template->set('meta_title', $meta_title);
+        $template->set('meta_description', $meta_description);           
+
+        $template->render();
+    }
+}
