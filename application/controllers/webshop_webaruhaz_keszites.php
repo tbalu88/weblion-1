@@ -8,7 +8,7 @@ class Webshop_webaruhaz_keszites extends Controller {
         $meta_title = '';
         $meta_description = '';
 
-        $template = $this->loadView('main_view');
+        $template = $this->loadView('webshop_webaruhaz_keszites');
         
         $template->set('title', $title);
         $template->set('meta_title', $meta_title);

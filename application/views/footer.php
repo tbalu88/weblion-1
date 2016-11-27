@@ -149,6 +149,11 @@
 <!-- OWL CAROUSEL -->    
 <script type="text/javascript" src="<?= ASSET_URL ?>js/owl.carousel.min.js"></script>
 
+<!-- GOOLE MAP --> 
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDzf6Gmc9u7rr2JHijOERAmC_j0gWYtR2c"></script>
+<script type="text/javascript" src="<?= ASSET_URL ?>js/gmap3.min.js"></script>
+
+
 <!-- MAIN SCRIPT -->
 <script src="<?= ASSET_URL ?>js/main.js"></script>
 

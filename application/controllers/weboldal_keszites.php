@@ -8,7 +8,7 @@ class Weboldal_keszites extends Controller {
         $meta_title = '';
         $meta_description = '';
 
-        $template = $this->loadView('main_view');
+        $template = $this->loadView('weboldal_keszites_view');
         
         $template->set('title', $title);
         $template->set('meta_title', $meta_title);

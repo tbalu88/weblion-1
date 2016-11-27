@@ -1,6 +1,6 @@
 <?php
 
-class Keresooptimalizalas_seo extends Controller {
+class Rolunk extends Controller {
 	
     function index()
     {
@@ -8,7 +8,7 @@ class Keresooptimalizalas_seo extends Controller {
         $meta_title = '';
         $meta_description = '';
 
-        $template = $this->loadView('keresooptimalizalas_seo_view');
+        $template = $this->loadView('rolunk_view');
         
         $template->set('title', $title);
         $template->set('meta_title', $meta_title);
