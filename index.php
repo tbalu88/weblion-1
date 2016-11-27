@@ -20,6 +20,7 @@ require(ROOT_DIR .'system/pip.php');
 // Define base URL
 global $config;
 define('BASE_URL', $config['base_url']);
+define('ASSET_URL', $config['base_url'] . 'static/');
 
 pip();
 
